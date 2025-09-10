@@ -1,32 +1,52 @@
-# Student Record Management System
-A minimalist desktop app  to managae students record. **record are saved directly on an excel file to decrease data Entry labour cost**  and improves efficiency.
+#Student Record Management System (SRM)
 
->launch the srm.exe file directly to use the App.
+A minimalist desktop application designed to streamline student record management.
+SRM integrates directly with Microsoft Excel for data storage — eliminating the need for complex databases and reducing data entry labor costs, while boosting operational efficiency.
 
->for testing purpose both passwords are set to "password".
 
->Admin have full access to manipulate the data.
+Simply launch the srm.exe file to start using the application.
 
->Student account can only view the data.
-## `Login`
-<img src="ScreenShot/Home.JPG">
+Login Information (For Testing)
 
-## `Logged in as Admin`
-<img src="ScreenShot/AdminFunction.JPG">
+Admin Account
 
-## `Viewing Students Records`
-<img src="ScreenShot/ViewData.JPG">
+Username: admin
 
-## ``Records Saved in Excel File``
-<img src="ScreenShot/ViewExcel.JPG">
+Password: password
 
-### Running on Local machine
+🔧 Full access to view, edit, delete, and manage all student data.
 
-- Install a C++ compiler (e.g., GCC).
-- Write your C++ code and save it with the .cpp extension.
-- Open the terminal (Linux/Mac) or Command Prompt (Windows).
-- Navigate to the directory containing your C++ source code.
-- Compile the code using the command: `g++ -o output_filename source_file.cpp`.
-- Run the executable using: `./output_filename` (Linux/Mac) or `output_filename.exe` (Windows).
-- Test and verify your program's functionality.
+Student Account
+
+Username: student
+
+Password: password
+
+View-only access — perfect for students to verify their records without accidental changes.
+
+💡 Key Features
+
+Lightning-fast access via .exe file — no installation needed.
+All records saved in Excel (.xlsx) format for universal compatibility.
+Role-based access control for secure usage.
+Intuitive interface with minimal learning curve.
+
+Requirements:
+C++ Compiler (GCC, MinGW)
+
+Steps:
+
+Write your C++ source code and save it as main.cpp (or any .cpp file).
+
+1)Open Terminal (Linux/Mac) or Command Prompt (Windows).
+
+2)Navigate to your project directory.
+
+3)Compile the code using:->
+g++ -o srm main.cpp
+
+34)Run the executable:->
+srm.exe
+
+5)Done! Test your application and ensure everything works as expected.
 
