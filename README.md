@@ -1,14 +1,13 @@
-#Student Record Management System (SRM)
+# Student Record Management System (SRM)
 
 A minimalist desktop application designed to streamline student record management.
 SRM integrates directly with Microsoft Excel for data storage — eliminating the need for complex databases and reducing data entry labor costs, while boosting operational efficiency.
-
 
 Simply launch the srm.exe file to start using the application.
 
 Login Information (For Testing)
 
-Admin Account
+# Admin Account
 
 Username: admin
 
@@ -16,7 +15,7 @@ Password: password
 
 🔧 Full access to view, edit, delete, and manage all student data.
 
-Student Account
+# Student Account
 
 Username: student
 
@@ -24,7 +23,7 @@ Password: password
 
 View-only access — perfect for students to verify their records without accidental changes.
 
-💡 Key Features
+# Key Features
 
 Lightning-fast access via .exe file — no installation needed.
 All records saved in Excel (.xlsx) format for universal compatibility.
@@ -34,7 +33,7 @@ Intuitive interface with minimal learning curve.
 Requirements:
 C++ Compiler (GCC, MinGW)
 
-Steps:
+# Steps:
 
 Write your C++ source code and save it as main.cpp (or any .cpp file).
 
